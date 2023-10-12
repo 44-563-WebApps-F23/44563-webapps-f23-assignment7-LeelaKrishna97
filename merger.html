@@ -44,12 +44,10 @@
   </body>
   <script>
     function addEnd() {
-      /* make the div and its text */
       let element = document.createElement("div");
       element.innerHTML = document.getElementById("inputElement").value;
       element.style.color = "orange";
       element.className = "merger";
-      /* add it to the container */
       let container = document.getElementById("target");
       container.appendChild(element);
     }
