@@ -23,49 +23,104 @@
      <p>Click on the locations to search for treasure, beware the traps</p>
      <p id="locations">Number of locations checked is zero</p>
      <p id="penalty">Penalty is zero</p>
-     <p>Click for help</p>
+     <p onclick="help()">Click for help</p>
      <p id="help">Help report</p>
 
      <div class="Containers">
         <div class="row">
-         <div class="col-md-2"><img src="map.jpg" alt="Map" width="100" height="100"></div>
-         <div class="col-md-2"><img src="treasure.webp" alt="Treasure" width="100" height="100"></div>
-         <div class="col-md-2"><img src="Trap.jpg" alt="Trap" width="100" height="100"></div>
-         <div class="col-md-2"><img src="pirate.jpg" alt="Pirate" width="100" height="100"></div>
-         <div class="col-md-2"><img src="map.jpg" alt="Map" width="100" height="100"></div>
-        </div>   
-        <br>
+         <div class="col-md-2"><img src="map.jpg" id="pic-1" alt="Map" width="100" height="100" onclick="check(0)"></div>
+         <div class="col-md-2"><img src="map.jpg" id="pic-2" alt="Map" width="100" height="100" onclick="check(1)"></div>
+         <div class="col-md-2"><img src="map.jpg" id="pic-3" alt="Map" width="100" height="100" onclick="check(2)"></div>
+         <div class="col-md-2"><img src="map.jpg" id="pic-4" alt="Map" width="100" height="100" onclick="check(3)"></div>
+         <div class="col-md-2"><img src="map.jpg" id="pic-5" alt="Map" width="100" height="100" onclick="check(4)"></div>
+        </div>  
         <div class="row">
-            <div class="col-md-2"><img src="map.jpg" alt="Map" width="100" height="100"></div>
-            <div class="col-md-2"><img src="treasure.webp" alt="Treasure" width="100" height="100"></div>
-            <div class="col-md-2"><img src="Trap.jpg" alt="Trap" width="100" height="100"></div>
-            <div class="col-md-2"><img src="pirate.jpg" alt="Pirate" width="100" height="100"></div>
-            <div class="col-md-2"><img src="map.jpg" alt="Map" width="100" height="100"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-6" alt="Map" width="100" height="100" onclick="check(5)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-7" alt="Map" width="100" height="100" onclick="check(6)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-8" alt="Map" width="100" height="100" onclick="check(7)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-9" alt="Map" width="100" height="100" onclick="check(8)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-10" alt="Map" width="100" height="100" onclick="check(9)"></div>
         </div> 
-        <br>
         <div class="row">
-            <div class="col-md-2"><img src="map.jpg" alt="Map" width="100" height="100"></div>
-            <div class="col-md-2"><img src="treasure.webp" alt="Treasure" width="100" height="100"></div>
-            <div class="col-md-2"><img src="Trap.jpg" alt="Trap" width="100" height="100"></div>
-            <div class="col-md-2"><img src="pirate.jpg" alt="Pirate" width="100" height="100"></div>
-            <div class="col-md-2"><img src="map.jpg" alt="Map" width="100" height="100"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-11" alt="Map" width="100" height="100" onclick="check(10)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-12" alt="Map" width="100" height="100" onclick="check(11)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-13" alt="Map" width="100" height="100" onclick="check(12)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-14" alt="Map" width="100" height="100" onclick="check(13)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-15" alt="Map" width="100" height="100" onclick="check(14)"></div>
         </div> 
-        <br>
         <div class="row">
-            <div class="col-md-2"><img src="map.jpg" alt="Map" width="100" height="100"></div>
-            <div class="col-md-2"><img src="treasure.webp" alt="Treasure" width="100" height="100"></div>
-            <div class="col-md-2"><img src="Trap.jpg" alt="Trap" width="100" height="100"></div>
-            <div class="col-md-2"><img src="pirate.jpg" alt="Pirate" width="100" height="100"></div>
-            <div class="col-md-2"><img src="map.jpg" alt="Map" width="100" height="100"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-16" alt="Map" width="100" height="100" onclick="check(15)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-17" alt="Map" width="100" height="100" onclick="check(16)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-18" alt="Map" width="100" height="100" onclick="check(17)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-19" alt="Map" width="100" height="100" onclick="check(18)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-20" alt="Map" width="100" height="100" onclick="check(19)"></div>
         </div> 
-        <br>
         <div class="row">
-            <div class="col-md-2"><img src="map.jpg" alt="Map" width="100" height="100"></div>
-            <div class="col-md-2"><img src="treasure.webp" alt="Treasure" width="100" height="100"></div>
-            <div class="col-md-2"><img src="Trap.jpg" alt="Trap" width="100" height="100"></div>
-            <div class="col-md-2"><img src="pirate.jpg" alt="Pirate" width="100" height="100"></div>
-            <div class="col-md-2"><img src="map.jpg" alt="Map" width="100" height="100"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-21" alt="Map" width="100" height="100" onclick="check(20)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-22" alt="Map" width="100" height="100" onclick="check(21)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-23" alt="Map" width="100" height="100" onclick="check(22)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-24" alt="Map" width="100" height="100" onclick="check(23)"></div>
+            <div class="col-md-2"><img src="map.jpg" id="pic-25" alt="Map" width="100" height="100" onclick="check(24)"></div>
         </div> 
      </div>
+     <script>
+        var ids = ["pic-1","pic-2","pic-3","pic-4","pic-5","pic-6","pic-7","pic-8","pic-9","pic-10","pic-11","pic-12","pic-13","pic-14","pic-15","pic-16","pic-17","pic-18","pic-19","pic-20","pic-21","pic-22","pic-23","pic-24","pic-25"];
+        var checkCount = 0;
+        var penalty = 0;
+        var lastCheck = 0;
+        var treasureLocation = 5;
+        var trapLocation = 18;
+        var gameOver = false;
+        function check(position) {
+        var id = ids[position];
+        var image = document.getElementById(id);
+        if (gameOver) {
+          return;
+        }
+        if (position == treasureLocation) {
+          image.src = "treasure.webp";
+          gameOver = true;
+          penalty -= 3;
+        } else if (position == trapLocation) {
+          image.src = "Trap.jpg";
+          gameOver = true;
+          penalty += 4;
+        } else {
+          image.src = "pirate.jpg";
+        }
+        checkCount++;
+        penalty++;
+        document.getElementById("locations").innerHTML =
+          "Number of locations checked is " + checkCount;
+        document.getElementById("penalty").innerHTML = "penalty is " + penalty;
+        lastCheck = position;
+      }
+
+      function help() {
+        let treasureInrow = Math.floor(treasureLocation / 5);
+        let treasureInCol = treasureLocation % 5;
+        let LR = Math.floor(lastCheck / 5);
+        let LC = lastCheck % 5;
+        let RDiff = Math.abs(treasureInrow - LR);
+        let CDiff = Math.abs(treasureInCol - LC);
+        let difference = Math.abs(RDiff - CDiff);
+        console.log(treasureInrow, treasureInCol, LR, LC);
+        penalty = penalty + 2;
+        document.getElementById("penalty").innerHTML =
+          "Total Penalty Points :" + penalty;
+        let myhelp = document.getElementById("help");
+        if ((RDiff == 0 || CDiff == 0) && difference == 1) {
+          myhelp.innerHTML = "Can smell it";
+        } else if (RDiff + CDiff == 2) {
+          myhelp.innerHTML = "Close Matie";
+        } else {
+          myhelp.innerHTML = "Step Faster";
+        }
+      }
+
+      function newGame() {
+        location.reload();
+      }
+     </script>
 </body>
 </html>
